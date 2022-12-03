@@ -1,0 +1,29 @@
+{
+  "name": "vitesse",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "playground"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "latest",
+    "turbo": "latest",
+    "@antfu/eslint-config": "^0.25.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "vite": "^2.8.6"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
+  },
+  "packageManager": "pnpm@7.14.0"
+}
