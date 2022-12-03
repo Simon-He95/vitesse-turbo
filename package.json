@@ -12,15 +12,16 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
     "prettier": "latest",
-    "turbo": "latest",
-    "@antfu/eslint-config": "^0.25.2"
+    "turbo": "latest"
   },
   "engines": {
     "node": ">=14.0.0"
   },
   "dependencies": {
-    "vite": "^2.8.6"
+    "vite": "^2.8.6",
+    "vue": "^3.2.31"
   },
   "eslintConfig": {
     "extends": "@antfu"

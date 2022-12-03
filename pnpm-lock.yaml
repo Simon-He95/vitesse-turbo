@@ -8,8 +8,10 @@ importers:
       prettier: latest
       turbo: latest
       vite: ^2.8.6
+      vue: ^3.2.31
     dependencies:
       vite: 2.9.15
+      vue: 3.2.45
     devDependencies:
       '@antfu/eslint-config': 0.25.2
       prettier: 2.8.0
